@@ -104,3 +104,31 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Media
 --------------------------------------------------------------*/
 @import "media/media";
+
+/*--------------------------------------------------------------
+# Site Content
+--------------------------------------------------------------*/
+@import "layout/content-site";
+
+/*--------------------------------------------------------------
+# Responsive layout
+--------------------------------------------------------------*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  @import "responsive/tablets";
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  @import "responsive/desktops";
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  @import "responsive/large-desktops";
+}
+
+@media (min-width: 768px) {
+  @import "responsive/tablets";
+}
