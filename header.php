@@ -21,23 +21,31 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'esports-srbija' ); ?></a>
-
 	<header id="masthead" class="site-header" role="banner">
-		<section>
-			<nav class="main-navigation navbar">
-				<a class="navbar-brand" href="home.php">GAMES<br>SERBIA</a>
-			  <div class="container-fluid">
-			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="#">NASLOVNA</a></li>
-							<li><a href="#">ESPORTS</a></li>
-							<li><a href="#">FORUM</a></li>
-							<li><a href="#">O NAMA</a></li>
-			      </ul>
-			    </div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
-			</nav>
-		</section>
-	</header><!-- #masthead -->
+		<nav class="main-navigation navbar">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		     	<a class="navbar-brand" href="home.php">GAMES<br>SERBIA</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">NASLOVNA</a></li>
+						<li><a href="#">ESPORTS</a></li>
+						<li><a href="#">FORUM</a></li>
+						<li><a href="#">O NAMA</a></li>
+					</ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
 
 	<div id="content" class="site-content">
