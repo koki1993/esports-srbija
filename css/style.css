@@ -285,7 +285,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #08090D;
+  background: #fff;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote, q {
@@ -414,9 +414,9 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #fff; }
+  color: royalblue; }
   a:visited {
-    color: #fff; }
+    color: purple; }
   a:hover, a:focus, a:active {
     color: midnightblue; }
   a:focus {
@@ -431,10 +431,7 @@ a {
   clear: both;
   display: block;
   float: left;
-  width: 100%;
-  background-color: #08090D;
-  border: 0px;
-  font-size: 16px; }
+  width: 100%; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -465,10 +462,14 @@ a {
     text-decoration: none; }
 
 /* Small menu. */
+.menu-toggle,
 .main-navigation.toggled ul {
   display: block; }
 
 @media screen and (min-width: 37.5em) {
+  .menu-toggle {
+    display: none; }
+
   .main-navigation ul {
     display: block; } }
 .site-main .comment-navigation, .site-main
