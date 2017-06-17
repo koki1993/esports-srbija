@@ -105,11 +105,12 @@ add_action( 'widgets_init', 'esports_srbija_widgets_init' );
  * Enqueue scripts and styles.
  */
 function esports_srbija_scripts() {
+	// Styles
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.7', 'all' );
 	wp_enqueue_style( 'esports-srbija-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'esports-srbija-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
-	wp_enqueue_script( 'esports-srbija-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	// Scripts
+	wp_enqueue_script( 'esports-srbija-navigation', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '3.3.7', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
