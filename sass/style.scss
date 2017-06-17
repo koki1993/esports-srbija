@@ -116,19 +116,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  @import "responsive/tablets";
+  @import "responsive/tablet";
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  @import "responsive/desktops";
+  @import "responsive/desktop";
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  @import "responsive/large-desktops";
-}
-
-@media (min-width: 768px) {
-  @import "responsive/tablets";
+  @import "responsive/large-desktop";
 }
