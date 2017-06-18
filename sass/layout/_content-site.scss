@@ -9,3 +9,32 @@
   border-top: 1px  solid $color__border-section;
   border-bottom: 1px  solid $color__border-section;
 }
+.slider-container{
+  height: 500px;
+  width: auto;
+  h1{
+    margin-top: 150px;
+    margin-left: 100px;
+    color: $color__link;
+    font-size: 40px;
+  }
+  p{
+    margin-left: 100px;
+    margin-right: 900px;
+    color: $color__link;
+    font-size: 16px;
+  }
+  a{
+    margin-left: 100px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: $color__button-red;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0 $color__button-red;
+    &:hover{
+      color: darken($color__link, 20%);
+      text-decoration: none;
+    }
+  }
+}

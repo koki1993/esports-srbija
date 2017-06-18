@@ -673,6 +673,31 @@ object {
   border-top: 1px solid #696969;
   border-bottom: 1px solid #696969; }
 
+.slider-container {
+  height: 500px;
+  width: auto; }
+  .slider-container h1 {
+    margin-top: 150px;
+    margin-left: 100px;
+    color: #fff;
+    font-size: 40px; }
+  .slider-container p {
+    margin-left: 100px;
+    margin-right: 900px;
+    color: #fff;
+    font-size: 16px; }
+  .slider-container a {
+    margin-left: 100px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff4000;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0 #ff4000; }
+    .slider-container a:hover {
+      color: #cccccc;
+      text-decoration: none; }
+
 /*--------------------------------------------------------------
 # Responsive layout
 --------------------------------------------------------------*/
