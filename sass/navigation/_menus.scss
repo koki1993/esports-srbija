@@ -1,4 +1,14 @@
 .main-navigation {
+	.navbar-brand {padding: 10px 0 0 0;}
+	.navbar-nav>li>a{
+		&:hover,
+		&:active,
+		&:focus { background-color: $color__background-body; color: darken($color__link, 50%); }
+	}
+	font-size: 16px;
+	color: $color__link;
+	padding: 0 100px 5px 100px;
+	margin-bottom:  0;
 }
 
 .comment-navigation,

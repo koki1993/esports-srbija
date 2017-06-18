@@ -418,15 +418,24 @@ a {
   a:visited {
     color: #fff; }
   a:hover, a:focus, a:active {
-    color: midnightblue; }
-  a:focus {
-    outline: thin dotted; }
+    color: black; }
   a:hover, a:active {
     outline: 0; }
 
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.main-navigation {
+  font-size: 16px;
+  color: #fff;
+  padding: 0 100px 5px 100px;
+  margin-bottom: 0; }
+  .main-navigation .navbar-brand {
+    padding: 10px 0 0 0; }
+  .main-navigation .navbar-nav > li > a:hover, .main-navigation .navbar-nav > li > a:active, .main-navigation .navbar-nav > li > a:focus {
+    background-color: #08090D;
+    color: gray; }
+
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
@@ -653,6 +662,17 @@ object {
 /*--------------------------------------------------------------
 # Site Content
 --------------------------------------------------------------*/
+/*
+  -----------
+    Naslovna
+  -----------
+*/
+.first-section {
+  height: 500px;
+  background-color: #09092a;
+  border-top: 1px solid #696969;
+  border-bottom: 1px solid #696969; }
+
 /*--------------------------------------------------------------
 # Responsive layout
 --------------------------------------------------------------*/

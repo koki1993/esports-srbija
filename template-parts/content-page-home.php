@@ -10,5 +10,9 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	
+	<section class="first-section">
+		<div class="">
+
+		</div>
+	</section>
 </article>
