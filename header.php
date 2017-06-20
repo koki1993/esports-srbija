@@ -32,7 +32,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		     	<div class="navbar-brand">ESPORTS<br>SRBIJA</div>
+		     	<a href="<?php home_url('/'); ?>" class="site-name">ESPORTS<br>SRBIJA</a>
 		    </div>
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

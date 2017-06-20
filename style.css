@@ -428,13 +428,19 @@ a {
 .main-navigation {
   font-size: 16px;
   color: #fff;
-  padding: 0 100px 5px 100px;
+  padding: 0 100px;
   margin-bottom: 0; }
-  .main-navigation .navbar-brand {
-    padding: 10px 0 0 0; }
-  .main-navigation .navbar-nav > li > a:hover, .main-navigation .navbar-nav > li > a:active, .main-navigation .navbar-nav > li > a:focus {
-    background-color: #08090D;
-    color: gray; }
+  .main-navigation .site-name {
+    display: block;
+    padding: 17px 0 0 0; }
+    .main-navigation .site-name:hover, .main-navigation .site-name:focus {
+      color: #fff;
+      text-decoration: none; }
+  .main-navigation .navbar-nav li a {
+    padding: 30px 0 30px 20px; }
+    .main-navigation .navbar-nav li a:hover, .main-navigation .navbar-nav li a:active, .main-navigation .navbar-nav li a:focus {
+      background-color: #08090D;
+      color: gray; }
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
@@ -668,7 +674,7 @@ object {
   -----------
 */
 .first-section {
-  height: 500px;
+  height: 700px;
   background-color: #09092a;
   border-top: 1px solid #696969;
   border-bottom: 1px solid #696969; }
@@ -678,16 +684,12 @@ object {
   width: auto; }
   .slider-container h1 {
     margin-top: 150px;
-    margin-left: 100px;
     color: #fff;
     font-size: 40px; }
   .slider-container p {
-    margin-left: 100px;
-    margin-right: 900px;
     color: #fff;
     font-size: 16px; }
   .slider-container a {
-    margin-left: 100px;
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
@@ -698,6 +700,75 @@ object {
       color: #cccccc;
       text-decoration: none; }
 
+.second-section {
+  height: 2000px;
+  width: auto;
+  background-color: #08090D; }
+
+.second-section-container {
+  height: 475px;
+  background-color: #fff;
+  margin-top: -100px; }
+
+.second-section-container-1 {
+  height: 475px;
+  background-color: #fff;
+  margin-top: 50px; }
+
+.second-section-item {
+  height: 200px;
+  background-color: #08090D; }
+
+.naslov {
+  height: 100px;
+  text-align: left;
+  padding-top: 30px; }
+  .naslov a {
+    font-size: 24px;
+    color: #08090D;
+    font-weight: bold; }
+    .naslov a:hover {
+      text-decoration: none;
+      color: #424b6c; }
+
+.vise {
+  height: 100px;
+  text-align: right;
+  padding-top: 35px; }
+  .vise a {
+    font-size: 18px;
+    color: #e63d00;
+    font-weight: bold; }
+    .vise a:hover {
+      text-decoration: none;
+      color: #9a2900; }
+
+.second-section-item {
+  height: 300px; }
+
+.pad {
+  padding-left: 0; }
+
+.item-name {
+  padding-top: 20px; }
+  .item-name a {
+    font-size: 16px;
+    color: #08090D;
+    font-weight: bold; }
+    .item-name a:hover {
+      color: #424b6c;
+      text-decoration: none; }
+
+.third-section {
+  height: 500px;
+  width: auto;
+  background-color: #09092a; }
+
+/*
+  -----------
+    Footer
+  -----------
+*/
 /*--------------------------------------------------------------
 # Responsive layout
 --------------------------------------------------------------*/

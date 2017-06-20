@@ -3,38 +3,127 @@
     Naslovna
   -----------
 */
-.first-section{
-  height: 500px;
+.first-section {
+  height: 700px;
   background-color: $color__background-firstsection;
   border-top: 1px  solid $color__border-section;
   border-bottom: 1px  solid $color__border-section;
 }
-.slider-container{
+.slider-container {
   height: 500px;
   width: auto;
-  h1{
+
+  h1 {
     margin-top: 150px;
-    margin-left: 100px;
     color: $color__link;
     font-size: 40px;
   }
-  p{
-    margin-left: 100px;
-    margin-right: 900px;
+  p {
     color: $color__link;
     font-size: 16px;
   }
-  a{
-    margin-left: 100px;
+  a {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
     background-color: $color__button-red;
     border-radius: 3px;
     box-shadow: 0 0 10px 0 $color__button-red;
+
     &:hover{
       color: darken($color__link, 20%);
       text-decoration: none;
     }
   }
 }
+
+.second-section {
+  height: 2000px;
+  width: auto;
+  background-color: $color__background-body;
+}
+
+.second-section-container {
+  height: 475px;
+  background-color: #fff;
+  margin-top: -100px;
+}
+
+.second-section-container-1 {
+  height: 475px;
+  background-color: #fff;
+  margin-top: 50px;
+}
+
+.second-section-item {
+  height: 200px;
+  background-color: $color__background-body;
+}
+
+.naslov {
+  height: 100px;
+  text-align: left;
+  padding-top: 30px;
+
+  a {
+    font-size: 24px;
+    color: $color__background-body;
+    font-weight: bold;
+    &:hover {
+      text-decoration: none;
+      color: lighten($color__background-body, 30%);
+    }
+  }
+}
+
+.vise {
+  height: 100px;
+  text-align: right;
+  padding-top: 35px;
+
+  a{
+    font-size: 18px;
+    color:  #e63d00;
+    font-weight: bold;
+    &:hover {
+      text-decoration: none;
+      color: darken( #e63d00, 15%);
+    }
+  }
+}
+
+.second-section-item {
+  height: 300px;
+}
+
+.pad {
+  padding-left: 0;
+}
+
+.item-name {
+  padding-top: 20px;
+
+  a{
+    font-size: 16px;
+    color: $color__background-body;
+    font-weight: bold;
+
+    &:hover {
+      color: lighten($color__background-body, 30%);
+      text-decoration: none;
+    }
+  }
+}
+
+.third-section {
+  height: 500px;
+  width: auto;
+  background-color: $color__background-firstsection;
+}
+
+
+/*
+  -----------
+    Footer
+  -----------
+*/
