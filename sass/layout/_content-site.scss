@@ -119,6 +119,33 @@
   height: 500px;
   width: auto;
   background-color: $color__background-firstsection;
+
+  h1 {
+    color: $color__link;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 150px;
+  }
+
+  p {
+    color: $color__link;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: $color__button-red;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0 $color__button-red;
+
+    &:hover{
+      color: darken($color__link, 20%);
+      text-decoration: none;
+    }
+  }
 }
 
 

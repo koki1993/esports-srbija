@@ -236,6 +236,14 @@
 		</div>
 	</section>
 	<section class="third-section">
-
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<h1>Esports u Srbiji</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+					<a href="#">SAZNAJTE VISE</a>
+				</div>
+			</div>
+		</div>
 	</section>
 </article>
