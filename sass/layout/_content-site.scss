@@ -83,11 +83,11 @@
 
   a{
     font-size: 18px;
-    color:  #e63d00;
+    color: $color__link-vise;
     font-weight: bold;
     &:hover {
       text-decoration: none;
-      color: darken( #e63d00, 15%);
+      color: darken( $color__link-vise, 15%);
     }
   }
 }
@@ -154,3 +154,36 @@
     Footer
   -----------
 */
+
+.site-footer {
+  height: 400px;
+  background-color: $color__background-body;
+  padding-top: 50px;
+  text-align: center;
+
+  a {
+    color: 	$color__link-footer;
+    font-size: 16px;
+    padding-left: 50px;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: none;
+      color: lighten($color__link-footer, 20%);
+    }
+  }
+
+  img {
+    padding-top: 50px;
+    height: 100px;
+    width: auto;
+    color: red;
+  }
+
+  p {
+    padding-top: 75px;
+    font-size: 14px;
+    color: $color__link-footer;
+    font-weight: bold;
+  }
+}

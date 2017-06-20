@@ -788,6 +788,30 @@ object {
     Footer
   -----------
 */
+.site-footer {
+  height: 400px;
+  background-color: #08090D;
+  padding-top: 50px;
+  text-align: center; }
+  .site-footer a {
+    color: #666666;
+    font-size: 16px;
+    padding-left: 50px;
+    font-weight: bold; }
+    .site-footer a:hover {
+      text-decoration: none;
+      color: #999999; }
+  .site-footer img {
+    padding-top: 50px;
+    height: 100px;
+    width: auto;
+    color: red; }
+  .site-footer p {
+    padding-top: 75px;
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold; }
+
 /*--------------------------------------------------------------
 # Responsive layout
 --------------------------------------------------------------*/
