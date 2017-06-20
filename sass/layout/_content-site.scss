@@ -47,12 +47,14 @@
   height: 475px;
   background-color: #fff;
   margin-top: -100px;
+  border-radius: 3px;
 }
 
 .second-section-container-1 {
   height: 475px;
   background-color: #fff;
   margin-top: 50px;
+  border-radius: 3px;
 }
 
 .second-section-item {
@@ -124,7 +126,7 @@
     color: $color__link;
     font-size: 40px;
     font-weight: bold;
-    padding-top: 150px;
+    padding-top: 120px;
   }
 
   p {
