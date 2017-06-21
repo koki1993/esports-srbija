@@ -28,9 +28,8 @@
     font-size: 16px;
     background-color: $color__button-red;
     border-radius: 3px;
-    box-shadow: 0 0 10px 0 $color__button-red;
 
-    &:hover{
+    &:hover {
       color: darken($color__link, 20%);
       text-decoration: none;
     }
@@ -83,7 +82,7 @@
   text-align: right;
   padding-top: 35px;
 
-  a{
+  a {
     font-size: 18px;
     color: $color__link-vise;
     font-weight: bold;
@@ -105,7 +104,7 @@
 .item-name {
   padding-top: 20px;
 
-  a{
+  a {
     font-size: 16px;
     color: $color__background-body;
     font-weight: bold;

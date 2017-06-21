@@ -414,7 +414,8 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #fff; }
+  color: #fff;
+  transition: 320ms ease-in-out; }
   a:visited {
     color: #fff; }
   a:hover, a:focus, a:active {
@@ -694,8 +695,7 @@ object {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #ff4000;
-    border-radius: 3px;
-    box-shadow: 0 0 10px 0 #ff4000; }
+    border-radius: 3px; }
     .slider-container a:hover {
       color: #cccccc;
       text-decoration: none; }
