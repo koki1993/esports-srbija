@@ -18,22 +18,17 @@
 			<section>
 				<div class="container">
 					<div class="row">
-						<div class="site-footer">
-							<div>
-								<a href="#">NASLOVNA</a>
-								<a href="#">NOVO</a>
-								<a href="#">FORUM</a>
-								<a href="#">O NAMA</a>
-							</div>
-							<div>
-								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png"></a>
-								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png"></a>
-								<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/instagram.png"></a>
-							</div>
-							<div>
-								<p>@2017 All rights reserved</p>
-							</div>
+						<div class="footer-menu">
+							<a href="#">NASLOVNA</a>
+							<a href="#">NOVO</a>
+							<a href="#">FORUM</a>
+							<a href="#">O NAMA</a>
 						</div>
+						<div>
+							<a href="#" class="footer-icons"><?php echo twitter(); ?></a>
+							<a href="#" class="footer-icons"><?php echo facebook(); ?></a>
+						</div>
+						<p>@2017 All rights reserved</p>
 					</div>
 				</div>
 			</section>

@@ -60,7 +60,7 @@
 	<section class="second-section">
 		<div class="container">
 			<div class="row">
-				<div class="second-section-container ">
+				<div class="second-section-container">
 					<div class="naslov col-md-6">
 						<a href="#">MOBA</a>
 					</div>
@@ -68,33 +68,41 @@
 						<a href="#">POGLEDAJ SVE</a>
 					</div>
 					<div class="col-md-3">
-						<div class="second-section-item pad">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3 pad">
-						<div class="second-section-item">
+					<div class="col-md-3">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3 pad">
-						<div class="second-section-item">
+					<div class="col-md-3">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3 pad">
-						<div class="second-section-item">
+					<div class="col-md-3">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
@@ -112,33 +120,41 @@
 						<a href="#">POGLEDAJ SVE</a>
 					</div>
 					<div class="col-md-3">
-						<div class="second-section-item pad">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3 pad">
-						<div class="second-section-item">
+					<div class="col-md-3">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3 pad">
-						<div class="second-section-item">
+					<div class="col-md-3">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3 pad">
-						<div class="second-section-item">
+					<div class="col-md-3">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
@@ -156,33 +172,41 @@
 						<a href="#">POGLEDAJ SVE</a>
 					</div>
 					<div class="col-md-3">
-						<div class="second-section-item pad">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3 pad">
-						<div class="second-section-item">
+					<div class="col-md-3">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3 pad">
-						<div class="second-section-item">
+					<div class="col-md-3">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3 pad">
-						<div class="second-section-item">
+					<div class="col-md-3">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
@@ -200,33 +224,41 @@
 						<a href="#">POGLEDAJ SVE</a>
 					</div>
 					<div class="col-md-3">
-						<div class="second-section-item pad">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3 pad">
-						<div class="second-section-item">
+					<div class="col-md-3">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3 pad">
-						<div class="second-section-item">
+					<div class="col-md-3">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3 pad">
-						<div class="second-section-item">
+					<div class="col-md-3">
+						<a href="#">
+							<div class="second-section-item">
 
-						</div>
+							</div>
+						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
@@ -238,11 +270,13 @@
 	<section class="third-section">
 		<div class="container">
 			<div class="row">
+				<div class="row">
 				<div class="col-md-5">
 					<h1>Esports u Srbiji</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
 					<a href="#">SAZNAJTE VISE</a>
 				</div>
+			</div>
 			</div>
 		</div>
 	</section>

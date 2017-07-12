@@ -156,3 +156,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Include footer icons
+ */
+require get_template_directory() . '/inc/footer-icons.php';

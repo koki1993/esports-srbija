@@ -4,21 +4,24 @@
   -----------
 */
 .first-section {
-  height: 700px;
+  padding: 50px 0;
   background-color: $color__background-firstsection;
   border-top: 1px  solid $color__border-section;
   border-bottom: 1px  solid $color__border-section;
 }
 .slider-container {
+  margin-left: 0px;
   height: 500px;
   width: auto;
 
   h1 {
-    margin-top: 150px;
+    padding-left: 0px;
+    margin-top: 100px;
     color: $color__link;
     font-size: 40px;
   }
   p {
+    padding-left: 0px;
     color: $color__link;
     font-size: 16px;
   }
@@ -30,30 +33,33 @@
     border-radius: 3px;
 
     &:hover {
-      color: darken($color__link, 20%);
+      color: $color__link;
       text-decoration: none;
+      background-color: darken($color__button-red, 10%);
     }
   }
 }
 
 .second-section {
-  height: 2000px;
+  padding: 100px 0;
   width: auto;
   background-color: $color__background-body;
 }
 
 .second-section-container {
-  height: 475px;
+  height: 500px;
   background-color: #fff;
-  margin-top: -100px;
+  margin-top: -200px;
   border-radius: 3px;
 }
 
 .second-section-container-1 {
-  height: 475px;
+  height: 500px;
   background-color: #fff;
   margin-top: 50px;
   border-radius: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .second-section-item {
@@ -62,9 +68,8 @@
 }
 
 .naslov {
-  height: 100px;
+  padding: 10px 0;
   text-align: left;
-  padding-top: 30px;
 
   a {
     font-size: 24px;
@@ -80,7 +85,6 @@
 .vise {
   height: 100px;
   text-align: right;
-  padding-top: 35px;
 
   a {
     font-size: 18px;
@@ -97,12 +101,7 @@
   height: 300px;
 }
 
-.pad {
-  padding-left: 0;
-}
-
 .item-name {
-  padding-top: 20px;
 
   a {
     font-size: 16px;
@@ -117,7 +116,7 @@
 }
 
 .third-section {
-  height: 500px;
+  padding: 100px 0;
   width: auto;
   background-color: $color__background-firstsection;
 
@@ -125,13 +124,11 @@
     color: $color__link;
     font-size: 40px;
     font-weight: bold;
-    padding-top: 120px;
   }
 
   p {
     color: $color__link;
     font-size: 16px;
-    padding-bottom: 20px;
   }
 
   a {
@@ -140,11 +137,11 @@
     font-size: 16px;
     background-color: $color__button-red;
     border-radius: 3px;
-    box-shadow: 0 0 10px 0 $color__button-red;
 
-    &:hover{
-      color: darken($color__link, 20%);
+    &:hover {
+      color: $color__link;
       text-decoration: none;
+      background-color: darken($color__button-red, 20%);
     }
   }
 }
@@ -157,15 +154,13 @@
 */
 
 .site-footer {
-  height: 400px;
   background-color: $color__background-body;
-  padding-top: 50px;
+  padding: 100px 0 75px 0;
   text-align: center;
 
   a {
     color: 	$color__link-footer;
     font-size: 16px;
-    padding-left: 50px;
     font-weight: bold;
 
     &:hover {
@@ -174,17 +169,66 @@
     }
   }
 
-  img {
-    padding-top: 50px;
-    height: 100px;
-    width: auto;
-    color: red;
-  }
+
 
   p {
-    padding-top: 75px;
+    padding-top: 50px;
     font-size: 14px;
     color: $color__link-footer;
     font-weight: bold;
+    margin-bottom: 0;
+  }
+  .footer-menu {
+    a {
+      margin-right: 50px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .footer-icons {
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 75px;
+
+    img {
+      max-width: 20px;
+      max-height: 20px;
+      transition: $site__transition-ease-in-out;
+
+      &:hover {
+        fill: $color__button-red;
+      }
+    }
+
+    #facebook {
+      max-width: 20px;
+      max-height: 20px;
+      g {
+        path {
+          &:hover {
+            transition: $site__transition-ease-in-out;
+            fill: $color__button-red;
+          }
+        }
+      }
+  }
+    #twitter {
+      max-width: 20px;
+      max-height: 20px;
+      g {
+        path {
+          &:hover {
+            transition: $site__transition-ease-in-out;
+            fill: $color__button-red;
+          }
+        }
+      }
+  }
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }
