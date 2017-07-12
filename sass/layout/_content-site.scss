@@ -25,19 +25,6 @@
     color: $color__link;
     font-size: 16px;
   }
-  a {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: $color__button-red;
-    border-radius: 3px;
-
-    &:hover {
-      color: $color__link;
-      text-decoration: none;
-      background-color: darken($color__button-red, 10%);
-    }
-  }
 }
 
 .second-section {
@@ -63,7 +50,7 @@
 }
 
 .second-section-item {
-  height: 200px;
+  padding: 100px 0;
   background-color: $color__background-body;
 }
 
@@ -97,10 +84,6 @@
   }
 }
 
-.second-section-item {
-  height: 300px;
-}
-
 .item-name {
 
   a {
@@ -129,20 +112,6 @@
   p {
     color: $color__link;
     font-size: 16px;
-  }
-
-  a {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: $color__button-red;
-    border-radius: 3px;
-
-    &:hover {
-      color: $color__link;
-      text-decoration: none;
-      background-color: darken($color__button-red, 20%);
-    }
   }
 }
 

@@ -363,6 +363,17 @@ input[type="submit"] {
   input[type="submit"]:focus {
     border-color: #aaa #bbb #bbb; }
 
+.red-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #FC4700;
+  border-radius: 3px; }
+  .red-button:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #c93900; }
+
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -694,16 +705,6 @@ object {
     padding-left: 0px;
     color: #fff;
     font-size: 16px; }
-  .slider-container a {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #FC4700;
-    border-radius: 3px; }
-    .slider-container a:hover {
-      color: #fff;
-      text-decoration: none;
-      background-color: #c93900; }
 
 .second-section {
   padding: 100px 0;
@@ -725,7 +726,7 @@ object {
   padding-right: 15px; }
 
 .second-section-item {
-  height: 200px;
+  padding: 100px 0;
   background-color: #08090D; }
 
 .naslov {
@@ -750,9 +751,6 @@ object {
       text-decoration: none;
       color: #b03100; }
 
-.second-section-item {
-  height: 300px; }
-
 .item-name a {
   font-size: 16px;
   color: #08090D;
@@ -772,16 +770,6 @@ object {
   .third-section p {
     color: #fff;
     font-size: 16px; }
-  .third-section a {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #FC4700;
-    border-radius: 3px; }
-    .third-section a:hover {
-      color: #fff;
-      text-decoration: none;
-      background-color: #962a00; }
 
 /*
   -----------
