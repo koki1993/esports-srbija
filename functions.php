@@ -161,3 +161,68 @@ require get_template_directory() . '/inc/jetpack.php';
  * Include footer icons
  */
 require get_template_directory() . '/inc/footer-icons.php';
+
+/**
+ * Custom post types
+ */
+function esports_custom_post_type() {
+	//Games
+	$games_labels = array(
+		'name'				=> 'Games',
+		'singular_name'		=> 'Game',
+		'add_new'			=> 'Add Game',
+		'all_items'			=> 'All Games',
+		'add_new_item'		=> 'Add Game',
+		'edit_item'			=> 'Edit Game',
+		'new_item'			=> 'New Game',
+		'view_item'			=> 'View Game',
+		'search_item'		=> 'Search Games',
+		'not_found'			=> 'No game found',
+		'not_found-in_trash'=> 'No game found in trash',
+		'parent_item_colon'	=> 'Parent Item'
+	);
+	$games_args = array(
+		'labels'			=> $games_labels,
+		'public'			=> true,
+		'has_archive'		=> true,
+		'publicly_queryable'=> true,
+		'query_var'			=> true,
+		'rewrite'			=> true,
+		'capability_type'	=> 'post',
+		'hierarchical'		=> false,
+		'supports'			=> array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions' ),
+		'menu_position'		=> 5,
+		'menu_icon'			=> 'dashicons-feedback',
+		'exclude_from_search'=> false
+	);
+	register_post_type( 'games', $games_args );
+}
+add_action( 'init', 'esports_custom_post_type' );
+
+//Games Custom Taxonomies
+function esports_custom_taxonomies() {
+	//Games Taxonomies
+	$games_labels = array(
+		'name'				=> 'Game Types',
+		'singular_name'		=> 'Game Type',
+		'search_items'		=> 'Search Game Types',
+		'all_items'			=> 'All Game Types',
+		'parent_item'		=> 'Parent Game Types',
+		'parent_item_colon'	=> 'Parent Game Types:',
+		'edit_item'			=> 'Edit Game Type',
+		'update_item'		=> 'Update Game Type',
+		'add_new_item'		=> 'Add New Game Type',
+		'new_item_name'		=> 'New Type Game Type',
+		'menu_name'			=> 'Game Types'
+	);
+	$games_args = array(
+		'hierarchical'		=> true,
+		'labels'			=> $games_labels,
+		'show_ui'			=> true,
+		'show_admin_column'	=> true,
+		'query_var'			=> true,
+		//'rewrite'			=> array( 'slug' => 'game_type' )
+	);
+	register_taxonomy( 'game_type', array('games'), $games_args );
+}
+add_action( 'init', 'esports_custom_taxonomies' );
