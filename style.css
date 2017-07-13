@@ -869,7 +869,7 @@ object {
       margin-top: 100px; }
 
   .second-section {
-    padding-bottom: 100px; }
+    padding-bottom: 30px; }
 
   .third-section {
     padding: 100px 0; }
@@ -892,13 +892,5 @@ object {
     .site-footer:last-child {
       margin-right: 0; } }
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  /*
-    -----------
-      Naslovna
-    -----------
-  */
-  .second-section {
-    padding: 100px 0; } }
 
 /*# sourceMappingURL=style.css.map */
