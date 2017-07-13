@@ -1,17 +1,29 @@
 .main-navigation {
 	font-size: 16px;
-	color: $color__link;
+	color: $color__link-white;
 	margin-bottom:  0;
 	height: 100px;
 	padding-top: 10px;
 
+	.navbar-toggle {
+		padding: 20px;
+		border: none;
+		span {
+			background-color: $color__link-white;
+		}
+		&:focus {
+			background-color: darken($color__link-white, 50%);
+		}
+	}
+
 	.site-name {
 		display: block;
 		padding: 17px 0 0 0;
+		margin-left: 15px;
 
 		&:hover,
 		&:focus {
-			color: $color__link;
+			color: $color__link-white;
 			text-decoration: none;
 		}
 	}
@@ -23,7 +35,7 @@
 				&:active,
 				&:focus {
 					background-color: $color__background-body;
-					color: darken($color__link, 50%);
+					color: darken($color__link-white, 50%);
 				}
 			}
 		}

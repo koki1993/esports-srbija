@@ -12,7 +12,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<section class="first-section">
 		<div class="container">
-			<div class="row">
 				<!-- Swiper -->
 				<div class="swiper-container">
 					<div class="swiper-wrapper">
@@ -54,53 +53,44 @@
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
 	</section>
 	<section class="second-section">
-		<div class="container">
-			<div class="row">
-				<div class="second-section-container">
-					<div class="naslov col-md-6">
-						<a href="#">MOBA</a>
-					</div>
-					<div class="vise col-md-6">
-						<a href="#">POGLEDAJ SVE</a>
-					</div>
-					<div class="col-md-3">
+		<div class="container" style="margin-top: -175px;">
+			<div class="second-section-container">
+				<a class="link link__black" href="#">MOBA</a>
+				<a class="link link__orange" href="#">POGLEDAJ SVE</a>
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
@@ -111,48 +101,40 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="row">
-				<div class="second-section-container-1">
-					<div class="naslov col-md-6">
-						<a href="#">MOBA</a>
-					</div>
-					<div class="vise col-md-6">
-						<a href="#">POGLEDAJ SVE</a>
-					</div>
-					<div class="col-md-3">
+			<div class="second-section-container">
+				<a class="link link__black" href="#">MOBA</a>
+				<a class="link link__orange" href="#">POGLEDAJ SVE</a>
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
@@ -163,48 +145,40 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="row">
-				<div class="second-section-container-1">
-					<div class="naslov col-md-6">
-						<a href="#">MOBA</a>
-					</div>
-					<div class="vise col-md-6">
-						<a href="#">POGLEDAJ SVE</a>
-					</div>
-					<div class="col-md-3">
+			<div class="second-section-container">
+				<a class="link link__black" href="#">MOBA</a>
+				<a class="link link__orange" href="#">POGLEDAJ SVE</a>
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
@@ -215,48 +189,40 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="row">
-				<div class="second-section-container-1">
-					<div class="naslov col-md-6">
-						<a href="#">MOBA</a>
-					</div>
-					<div class="vise col-md-6">
-						<a href="#">POGLEDAJ SVE</a>
-					</div>
-					<div class="col-md-3">
+			<div class="second-section-container">
+				<a class="link link__black" href="#">MOBA</a>
+				<a class="link link__orange" href="#">POGLEDAJ SVE</a>
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
 							<a href="#">League of Legends</a>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-6 col-md-3">
 						<a href="#">
 							<div class="second-section-item">
-
 							</div>
 						</a>
 						<div class="item-name">
@@ -270,13 +236,11 @@
 	<section class="third-section">
 		<div class="container">
 			<div class="row">
-				<div class="row">
 				<div class="col-md-5">
 					<h1>Esports u Srbiji</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
 					<a class="red-button" href="#">SAZNAJTE VISE</a>
 				</div>
-			</div>
 			</div>
 		</div>
 	</section>

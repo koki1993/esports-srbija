@@ -344,7 +344,7 @@ input[type="submit"] {
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
   background: #e6e6e6;
-  color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1;
@@ -368,9 +368,10 @@ input[type="submit"] {
   padding: 10px 20px;
   font-size: 16px;
   background-color: #FC4700;
-  border-radius: 3px; }
+  border-radius: 3px;
+  font-weight: bold; }
   .red-button:hover {
-    color: #fff;
+    color: #cccccc;
     text-decoration: none;
     background-color: #c93900; }
 
@@ -425,29 +426,53 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #fff;
+  color: #ffffff;
   transition: 320ms ease-in-out; }
-  a:visited {
-    color: #fff; }
   a:hover, a:focus, a:active {
+    text-decoration: none;
     color: black; }
   a:hover, a:active {
     outline: 0; }
+
+.link {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 23px; }
+  .link__black {
+    color: #000000;
+    font-size: 18px; }
+    .link__black:hover {
+      color: gray; }
+  .link__orange {
+    color: #FC4700;
+    font-size: 16px;
+    float: right; }
+    .link__orange:hover {
+      color: #962a00; }
 
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
   font-size: 16px;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 0;
   height: 100px;
   padding-top: 10px; }
+  .main-navigation .navbar-toggle {
+    padding: 20px;
+    border: none; }
+    .main-navigation .navbar-toggle span {
+      background-color: #ffffff; }
+    .main-navigation .navbar-toggle:focus {
+      background-color: gray; }
   .main-navigation .site-name {
     display: block;
-    padding: 17px 0 0 0; }
+    padding: 17px 0 0 0;
+    margin-left: 15px; }
     .main-navigation .site-name:hover, .main-navigation .site-name:focus {
-      color: #fff;
+      color: #ffffff;
       text-decoration: none; }
   .main-navigation .navbar-nav li a {
     padding: 30px 0 30px 20px; }
@@ -687,88 +712,58 @@ object {
   -----------
 */
 .first-section {
-  padding: 50px 0;
+  padding: 20px 0 20px 0;
   background-color: #09092a;
   border-top: 1px solid #696969;
   border-bottom: 1px solid #696969; }
 
 .slider-container {
   margin-left: 0px;
-  height: 500px;
-  width: auto; }
+  padding: 0 0 100px 0; }
   .slider-container h1 {
     padding-left: 0px;
-    margin-top: 100px;
-    color: #fff;
+    margin-top: 20px;
+    color: #ffffff;
     font-size: 40px; }
   .slider-container p {
     padding-left: 0px;
-    color: #fff;
+    color: #ffffff;
     font-size: 16px; }
 
 .second-section {
-  padding: 100px 0;
-  width: auto;
+  padding: 100px 0 20px 0;
   background-color: #08090D; }
 
 .second-section-container {
-  height: 500px;
-  background-color: #fff;
-  margin-top: -200px;
+  padding: 24px 30px;
+  background-color: #ffffff;
+  margin-bottom: 50px;
   border-radius: 3px; }
 
-.second-section-container-1 {
-  height: 500px;
-  background-color: #fff;
-  margin-top: 50px;
-  border-radius: 3px;
-  padding-left: 15px;
-  padding-right: 15px; }
-
 .second-section-item {
-  padding: 100px 0;
+  padding: 150px 0;
   background-color: #08090D; }
 
-.naslov {
-  padding: 10px 0;
-  text-align: left; }
-  .naslov a {
-    font-size: 24px;
+.item-name {
+  padding-top: 24px; }
+  .item-name a {
+    font-size: 16px;
     color: #08090D;
     font-weight: bold; }
-    .naslov a:hover {
-      text-decoration: none;
-      color: #424b6c; }
-
-.vise {
-  height: 100px;
-  text-align: right; }
-  .vise a {
-    font-size: 18px;
-    color: #FC4700;
-    font-weight: bold; }
-    .vise a:hover {
-      text-decoration: none;
-      color: #b03100; }
-
-.item-name a {
-  font-size: 16px;
-  color: #08090D;
-  font-weight: bold; }
-  .item-name a:hover {
-    color: #424b6c;
-    text-decoration: none; }
+    .item-name a:hover {
+      color: #424b6c;
+      text-decoration: none; }
 
 .third-section {
-  padding: 100px 0;
+  padding: 20px 0 30px 0;
   width: auto;
   background-color: #09092a; }
   .third-section h1 {
-    color: #fff;
+    color: #ffffff;
     font-size: 40px;
     font-weight: bold; }
   .third-section p {
-    color: #fff;
+    color: #ffffff;
     font-size: 16px; }
 
 /*
@@ -778,7 +773,7 @@ object {
 */
 .site-footer {
   background-color: #08090D;
-  padding: 100px 0 75px 0;
+  padding: 50px 0 35px 0;
   text-align: center; }
   .site-footer a {
     color: #666666;
@@ -788,22 +783,21 @@ object {
       text-decoration: none;
       color: #999999; }
   .site-footer p {
-    padding-top: 50px;
+    padding-top: 30px;
     font-size: 14px;
     color: #666666;
     font-weight: bold;
     margin-bottom: 0; }
   .site-footer .footer-menu a {
-    margin-right: 50px; }
-    .site-footer .footer-menu a:last-child {
-      margin-right: 0; }
+    margin-right: 50px;
+    margin-left: auto; }
+  .site-footer .footer-menu a:nth-child(2) {
+    margin-right: 75px; }
   .site-footer .footer-icons {
     display: inline-block;
     margin-top: 50px;
     margin-right: 75px; }
     .site-footer .footer-icons img {
-      max-width: 20px;
-      max-height: 20px;
       transition: 320ms ease-in-out; }
       .site-footer .footer-icons img:hover {
         fill: #FC4700; }
@@ -826,7 +820,85 @@ object {
 # Responsive layout
 --------------------------------------------------------------*/
 /* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /*
+    -----------
+      Naslovna
+    -----------
+  */
+  .first-section {
+    padding: 20px 0; }
+    .first-section .slider-container h1 {
+      margin-top: 50px; }
+
+  .second-section {
+    padding-bottom: 15px; }
+
+  .third-section {
+    padding: 10px 0 30px 0; }
+
+  /*
+    -----------
+      Footer
+    -----------
+  */
+  .site-footer {
+    padding: 50px 0 35px 0; }
+    .site-footer .footer-icons {
+      margin-top: 25px; }
+    .site-footer p {
+      padding-top: 20px; } }
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /*
+    -----------
+      Naslovna
+    -----------
+  */
+  .main-navigation .site-name {
+    margin-left: 0; }
+
+  /*
+    -----------
+      Naslovna
+    -----------
+  */
+  .first-section {
+    padding: 50px 0 100px 0; }
+    .first-section .slider-container h1 {
+      margin-top: 100px; }
+
+  .second-section {
+    padding-bottom: 100px; }
+
+  .third-section {
+    padding: 100px 0; }
+
+  /*
+    -----------
+      Footer
+    -----------
+  */
+  .site-footer {
+    padding: 100px 0 75px 0; }
+    .site-footer .footer-menu a {
+      margin-right: 50px; }
+      .site-footer .footer-menu a:last-child {
+        margin-right: 0; }
+    .site-footer .footer-icons {
+      margin-top: 50px; }
+    .site-footer p {
+      padding-top: 50px; }
+    .site-footer:last-child {
+      margin-right: 0; } }
 /* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /*
+    -----------
+      Naslovna
+    -----------
+  */
+  .second-section {
+    padding: 100px 0; } }
 
 /*# sourceMappingURL=style.css.map */

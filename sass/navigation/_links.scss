@@ -1,17 +1,43 @@
 a {
-	color: $color__link;
+	color: $color__link-white;
 	transition: $site__transition-ease-in-out;
 
-	&:visited {
-		color: $color__link-visited;
-	}
+	//&:visited {
+		//color: $color__link-visited;
+	//}
 	&:hover,
 	&:focus,
 	&:active {
+		text-decoration: none;
 		color: darken($color__link-hover, 30%);
 	}
 	&:hover,
 	&:active {
 		outline: 0;
+	}
+}
+
+.link {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 23px;
+
+	&__black {
+		color: $color__link;
+		font-size: 18px;
+
+		&:hover {
+			color: lighten($color__link, 50%);
+		}
+	}
+	&__orange {
+		color: $color__link-orange;
+		font-size: 16px;
+		float: right;
+
+		&:hover {
+			color: darken($color__link-orange, 20%);
+		}
 	}
 }
