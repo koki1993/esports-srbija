@@ -454,31 +454,77 @@ a {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-.main-navigation {
+/*
+  ----------------
+    Main Navigaion
+  ----------------
+*/
+.navbar-default {
   font-size: 16px;
-  color: #ffffff;
-  margin-bottom: 0;
-  height: 100px;
-  padding-top: 10px; }
-  .main-navigation .navbar-toggle {
-    padding: 20px;
-    border: none; }
-    .main-navigation .navbar-toggle span {
-      background-color: #ffffff; }
-    .main-navigation .navbar-toggle:focus {
-      background-color: gray; }
-  .main-navigation .site-name {
-    display: block;
-    padding: 17px 0 0 0;
-    margin-left: 15px; }
-    .main-navigation .site-name:hover, .main-navigation .site-name:focus {
-      color: #ffffff;
-      text-decoration: none; }
-  .main-navigation .navbar-nav li a {
-    padding: 30px 0 30px 20px; }
-    .main-navigation .navbar-nav li a:hover, .main-navigation .navbar-nav li a:active, .main-navigation .navbar-nav li a:focus {
+  background-color: #08090D;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0; }
+  .navbar-default .navbar-nav li a {
+    color: #ffffff;
+    padding: 30px 50px 30px 50px;
+    font-weight: bold; }
+    .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active, .navbar-default .navbar-nav li a:focus {
       background-color: #08090D;
       color: gray; }
+    .navbar-default .navbar-nav li a:last-child {
+      padding-right: 0; }
+  .navbar-default .site-name {
+    display: block;
+    padding: 17px 0 0 0;
+    font-weight: bold; }
+    .navbar-default .site-name:hover, .navbar-default .site-name:focus {
+      color: #ffffff;
+      text-decoration: none; }
+
+.navbar-toggle {
+  padding: 20px;
+  border: none; }
+  .navbar-toggle span {
+    background-color: #ffffff; }
+  .navbar-toggle:focus {
+    background-color: gray; }
+
+.navbar-nav li a {
+  color: #ffffff;
+  padding: 30px 0 30px 20px; }
+  .navbar-nav li a:hover, .navbar-nav li a:active, .navbar-nav li a:focus {
+    background-color: #08090D;
+    color: gray; }
+
+/*
+  ---------------------
+    Secondary Navigaion
+  ---------------------
+*/
+.secondary-menu .navbar-default {
+  font-size: 14px;
+  background-color: #FC4700;
+  border: none;
+  border-radius: 0;
+  padding-top: 0;
+  margin-bottom: 0; }
+  .secondary-menu .navbar-default .navbar-nav {
+    display: block;
+    margin: 0 auto;
+    float: none;
+    text-align: center; }
+    .secondary-menu .navbar-default .navbar-nav li {
+      display: inline-block;
+      float: none;
+      margin-top: 5px; }
+      .secondary-menu .navbar-default .navbar-nav li a {
+        padding: 10px 0 10px 20px;
+        color: #ffffff;
+        font-weight: bold; }
+        .secondary-menu .navbar-default .navbar-nav li a:hover, .secondary-menu .navbar-default .navbar-nav li a:active, .secondary-menu .navbar-default .navbar-nav li a:focus {
+          background-color: #FC4700;
+          color: #cccccc; }
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
@@ -767,15 +813,49 @@ object {
     font-size: 16px; }
 
 /*
+  -------------
+    Single Game
+  -------------
+*/
+.game-first-section {
+  padding: 100px 0;
+  background-color: #09092a; }
+  .game-first-section .game-description {
+    max-width: 500px;
+    margin: 0 auto; }
+  .game-first-section h1 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center; }
+  .game-first-section p {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center; }
+
+.narrow-container {
+  padding-top: 24px;
+  padding-bottom: 50px;
+  max-width: 850px;
+  margin: 0 auto; }
+  .narrow-container p {
+    font-size: 14px; }
+  .narrow-container .video-container {
+    margin-top: 100px;
+    padding: 200px 0;
+    background-color: #08090D; }
+
+/*
   -----------
     Footer
   -----------
 */
 .site-footer {
   background-color: #08090D;
-  padding: 50px 0 35px 0;
+  padding: 30px 0 35px 0;
   text-align: center; }
   .site-footer a {
+    display: block;
+    text-align: center;
     color: #666666;
     font-size: 16px;
     font-weight: bold; }
@@ -783,19 +863,17 @@ object {
       text-decoration: none;
       color: #999999; }
   .site-footer p {
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 14px;
     color: #666666;
     font-weight: bold;
     margin-bottom: 0; }
   .site-footer .footer-menu a {
-    margin-right: 50px;
-    margin-left: auto; }
-  .site-footer .footer-menu a:nth-child(2) {
-    margin-right: 75px; }
+    margin: 0 auto;
+    padding-top: 10px; }
   .site-footer .footer-icons {
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-right: 75px; }
     .site-footer .footer-icons img {
       transition: 320ms ease-in-out; }
@@ -846,6 +924,17 @@ object {
     padding: 50px 0 35px 0; }
     .site-footer .footer-icons {
       margin-top: 25px; }
+    .site-footer .footer-menu a {
+      margin-right: 50px;
+      margin-left: auto; }
+    .site-footer a {
+      display: inline-block;
+      color: #666666;
+      font-size: 16px;
+      font-weight: bold; }
+      .site-footer a:hover {
+        text-decoration: none;
+        color: #999999; }
     .site-footer p {
       padding-top: 20px; } }
 /* Medium devices (desktops, 992px and up) */
@@ -882,6 +971,7 @@ object {
   .site-footer {
     padding: 100px 0 75px 0; }
     .site-footer .footer-menu a {
+      display: inline-block;
       margin-right: 50px; }
       .site-footer .footer-menu a:last-child {
         margin-right: 0; }

@@ -1,25 +1,38 @@
-.main-navigation {
+/*
+  ----------------
+    Main Navigaion
+  ----------------
+*/
+.navbar-default {
 	font-size: 16px;
-	color: $color__link-white;
-	margin-bottom:  0;
-	height: 100px;
-	padding-top: 10px;
+	background-color: $color__background-body;
+	border: none;
+	border-radius: 0;
+	margin-bottom: 0;
 
-	.navbar-toggle {
-		padding: 20px;
-		border: none;
-		span {
-			background-color: $color__link-white;
-		}
-		&:focus {
-			background-color: darken($color__link-white, 50%);
+	.navbar-nav {
+		li {
+			a {
+				color: $color__link-white;
+				padding: 30px 50px 30px 50px;
+				font-weight: bold;
+				&:hover,
+				&:active,
+				&:focus {
+					background-color: $color__background-body;
+					color: darken($color__link-white, 50%);
+				}
+				&:last-child {
+					padding-right: 0;
+				}
+			}
 		}
 	}
 
 	.site-name {
 		display: block;
 		padding: 17px 0 0 0;
-		margin-left: 15px;
+		font-weight: bold;
 
 		&:hover,
 		&:focus {
@@ -27,15 +40,67 @@
 			text-decoration: none;
 		}
 	}
-	.navbar-nav {
-		li {
-			a {
-				padding: 30px 0 30px 20px;
-				&:hover,
-				&:active,
-				&:focus {
-					background-color: $color__background-body;
-					color: darken($color__link-white, 50%);
+}
+.navbar-toggle {
+	padding: 20px;
+	border: none;
+	span {
+		background-color: $color__link-white;
+	}
+	&:focus {
+		background-color: darken($color__link-white, 50%);
+	}
+}
+
+.navbar-nav {
+	li {
+		a {
+			color: $color__link-white;
+			padding: 30px 0 30px 20px;
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: $color__background-body;
+				color: darken($color__link-white, 50%);
+			}
+		}
+	}
+}
+
+/*
+  ---------------------
+    Secondary Navigaion
+  ---------------------
+*/
+
+.secondary-menu {
+	.navbar-default {
+		font-size: 14px;
+		background-color: $color__button-red;
+		border: none;
+		border-radius: 0;
+		padding-top: 0;
+		margin-bottom: 0;
+
+		.navbar-nav {
+			display: block;
+			margin: 0 auto;
+			float: none;
+			text-align: center;
+			li {
+				display: inline-block;
+				float: none;
+				margin-top: 5px;
+				a {
+					padding: 10px 0 10px 20px;
+					color: $color__link-white;
+					font-weight: bold;
+					&:hover,
+					&:active,
+					&:focus {
+						background-color: $color__button-red;
+						color: darken($color__link-white, 20%);
+					}
 				}
 			}
 		}
