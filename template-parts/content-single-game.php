@@ -15,7 +15,7 @@
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-11" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -23,7 +23,7 @@
           </button>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-11">
           <ul class="nav navbar-nav">
             <li><a href="#">NASLOVNA</a></li>
             <li><a href="#">ESPORTS</a></li>
@@ -65,6 +65,94 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
           <a class="red-button" href="#">SAZNAJTE VISE</a>
         </div>
+      </div>
+    </div>
+  </section>
+</article><!-- #post-<?php the_ID(); ?> -->
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+  <div class="razdvojnik">
+  </div>
+  <div class="secondary-menu">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">NASLOVNA</a></li>
+            <li><a href="#">ESPORTS</a></li>
+            <li><a href="#">FORUM</a></li>
+            <li><a href="#">O NAMA</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </div>
+  <section class="game-first-section">
+    <div class="container">
+      <div class="game-description">
+        <h1>MOBA Games</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    </div>
+  </section>
+  <section class="second-section">
+    <div class="container">
+      <div class="second-section-container" style="margin-top: -150px;">
+        <div class="narrow-container">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="third-section-single">
+    <div class="container">
+      <div class="row">
+        <ul class="suggested">
+					<li>
+						<div class="suggested-item suggested-img-1">
+							<div class="suggested-info">
+								<h3>ZAC</h3>
+								<p>Tank Jungler</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="suggested-item suggested-img-2">
+							<div class="suggested-info">
+								<h3>Nami</h3>
+								<p>Support</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="suggested-item suggested-img-3">
+							<div class="suggested-info">
+								<h3>Blitz</h3>
+								<p>Tank support</p>
+							</div>
+						</div>
+					</li>
+          <li>
+						<div class="suggested-item suggested-img-4">
+							<div class="suggested-info">
+								<h3>Kha`Zix</h3>
+								<p>Assasin Jungler</p>
+							</div>
+						</div>
+					</li>
+				</ul>
       </div>
     </div>
   </section>
