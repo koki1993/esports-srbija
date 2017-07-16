@@ -44,7 +44,7 @@ function esports_srbija_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'menu-1' => esc_html__( 'Primary', 'esports-srbija' ),
+		'Primary Menu' => esc_html__( 'primary-menu', 'esports-srbija' ),
 	) );
 
 	/*
@@ -67,6 +67,10 @@ function esports_srbija_setup() {
 
 	// Add theme support for selective refresh for widgets.
 	add_theme_support( 'customize-selective-refresh-widgets' );
+
+	// Add theme support for logo.
+	add_theme_support( 'custom-logo' );
+
 }
 endif;
 add_action( 'after_setup_theme', 'esports_srbija_setup' );

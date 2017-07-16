@@ -26,23 +26,32 @@
 		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="primary-collapse" aria-expanded="false">
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		     	<a href="<?php home_url('/'); ?>" class="site-name">ESPORTS<br>SRBIJA</a>
+					<?php
+					$custom_logo_id = get_theme_mod( 'custom_logo' );
+					$image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+					?>
+		     	<a href="<?php echo home_url('/'); ?>" class="site-name"><img class="" src="<?php echo $image[0]; ?>" alt="">ESPORTS<br>SRBIJA</a>
 		    </div>
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">NASLOVNA</a></li>
-						<li><a href="#">ESPORTS</a></li>
-						<li><a href="#">FORUM</a></li>
-						<li><a href="#">O NAMA</a></li>
-					</ul>
-		    </div><!-- /.navbar-collapse -->
+				<?php
+			 		wp_nav_menu( array(
+						'menu'              => 'Primary Menu',
+						'theme_location'    => 'primary-menu',
+						//'depth'             => 2,
+						'container'         => 'div',
+						'container_class'   => 'collapse navbar-collapse',
+						'container_id'      => 'primary-collapse',
+						'menu_class'        => 'nav navbar-nav navbar-right',
+						//'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+						//'walker'            => new WP_Bootstrap_Navwalker())
+			 			)
+					);
+	 	 		?>
 		  </div><!-- /.container-fluid -->
 		</nav>
 	</header>
