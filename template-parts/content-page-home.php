@@ -15,42 +15,35 @@
 				<!-- Swiper -->
 				<div class="swiper-container">
 					<div class="swiper-wrapper">
-						<div class="slider-container swiper-slide">
-							<div class="row">
-								<div class="col-md-5">
-									<h1>League of Legends</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
-									<a class="red-button" href="#">SAZNAJTE VISE</a>
-								</div>
-							</div>
-						</div>
-						<div class="slider-container swiper-slide">
-							<div class="row">
-								<div class="col-md-5">
-									<h1>League of Legends</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
-									<a class="red-button" href="#">SAZNAJTE VISE</a>
-								</div>
-							</div>
-						</div>
-						<div class="slider-container swiper-slide">
-							<div class="row">
-								<div class="col-md-5">
-									<h1>League of Legends</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
-									<a class="red-button" href="#">SAZNAJTE VISE</a>
-								</div>
-							</div>
-						</div>
-						<div class="slider-container swiper-slide">
-							<div class="row">
-								<div class="col-md-5">
-									<h1>League of Legends</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
-									<a class="red-button" href="#">SAZNAJTE VISE</a>
-								</div>
-							</div>
-						</div>
+						<?php
+
+						// check if the repeater field has rows of data
+						if( have_rows('text_slide') ):
+
+						 	// loop through the rows of data
+						    while ( have_rows('text_slide') ) : the_row();
+
+						        // display a sub field value
+						        $title = get_sub_field('home_page_title');
+										$text = get_sub_field('home_page_text');
+										$link = get_sub_field('home_page_link');
+										?>
+										<div class="slider-container swiper-slide">
+											<div class="row">
+												<div class="col-md-5">
+													<h1><?php echo $title; ?></h1>
+													<p><?php echo $text; ?></p>
+													<a class="red-button" href="<?php echo $link; ?>">SAZNAJTE VISE</a>
+												</div>
+											</div>
+										</div>
+										<?php
+						    endwhile;
+
+						endif;
+
+						?>
+
 					</div>
 				</div>
 		</div>
