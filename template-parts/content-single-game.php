@@ -123,32 +123,32 @@
 					<li>
 						<div class="suggested-item suggested-img-1">
 							<div class="suggested-info">
-								<h3>ZAC</h3>
-								<p>Tank Jungler</p>
+								<h3><a href="#">ZAC</a></h3>
+								<p><a href="#">Tank Jungler</a></p>
 							</div>
 						</div>
 					</li>
 					<li>
 						<div class="suggested-item suggested-img-2">
 							<div class="suggested-info">
-								<h3>Nami</h3>
-								<p>Support</p>
+								<h3><a href="#">Nami</a></h3>
+								<p><a href="#">Support</a></p>
 							</div>
 						</div>
 					</li>
 					<li>
 						<div class="suggested-item suggested-img-3">
 							<div class="suggested-info">
-								<h3>Blitz</h3>
-								<p>Tank support</p>
+								<h3><a href="#">Blitz</a></h3>
+								<p><a href="#">Tank support</a></p>
 							</div>
 						</div>
 					</li>
           <li>
 						<div class="suggested-item suggested-img-4">
 							<div class="suggested-info">
-								<h3>Kha`Zix</h3>
-								<p>Assasin Jungler</p>
+								<h3><a href="#">Kha`Zix</a></h3>
+								<p><a href="#">Assasin Jungler</a></p>
 							</div>
 						</div>
 					</li>

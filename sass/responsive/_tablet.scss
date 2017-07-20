@@ -1,7 +1,19 @@
+/*
+  -----------
+    Nav menu
+  -----------
+*/
+.navbar-default {
+  .site-name {
+    margin-left: 0px;
+  }
+}
+
+
 
 /*
   -----------
-    Naslovna
+    Home page
   -----------
 */
 
@@ -31,10 +43,7 @@
 
 .suggested {
   li {
-  	width: 210px;
-  	height: 210px;
-  	display: inline-block;
-  	margin: 20px;
+  	margin: 25px;
   }
 }
 

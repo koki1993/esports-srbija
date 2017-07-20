@@ -1,3 +1,13 @@
+/*
+  -----------
+    Nav menu
+  -----------
+*/
+.navbar-default {
+  .site-name {
+    margin-left: 0px;
+  }
+}
 
 /*
   -----------
@@ -41,8 +51,8 @@
 */
 
 .suggested {
-  li:nth-child(2) {
-  	
+  li {
+      margin: 65px;
   }
 }
 
